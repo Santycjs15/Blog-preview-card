@@ -1,0 +1,115 @@
+@font-face{
+    font-family: 'figtree-extrabold';
+    src: url(./fonts/static/Figtree-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'figtree-semibold';
+    src: url(./fonts/static/Figtree-SemiBold.ttf);
+}
+*{
+    padding: 10px 14px;
+    font-weight: 500;
+    font-family: 'figtree-extrabold';
+    font-size: 16px;
+}
+
+html{
+    color: black;
+    background-color: hsl(47, 88%, 63%);
+}
+
+body{
+    border: 1.5px solid;
+    border-radius: 12px;
+    background-color: white;
+    width: fit-content;
+    margin: 20vh auto;
+    -webkit-box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.9);
+    -moz-box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.9);
+    box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.9);
+    pointer-events: none;
+}
+
+body .image-illustration{
+    padding: 8px 2px;
+    margin: 0px;
+    border-radius: 16px;
+
+}
+
+body .learning{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    border-radius: 4px;
+    margin-top: 6px;
+    padding: 8px 12px;
+}
+
+body h2{
+
+    font-family: 'figtree-semibold';
+    border-radius: 8px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+body .foundations{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0px;
+    pointer-events: auto;
+}
+
+body .foundations:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;  
+}
+
+body:hover{
+    -webkit-box-shadow: 8px 8px 0px 3px rgba(0,0,0,9);
+    -moz-box-shadow: 8px 8px 0px 3px rgba(0,0,0,9);
+    box-shadow: 8px 8px 0px 3px rgba(0,0,0,0.9);
+}
+
+body h3{
+    font-family: 'figtree-semibold';
+    color: grey;
+    line-height: 24px;
+    width: 330px;
+
+    padding: 0px;
+}
+
+body .avatar{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 0px;
+    padding: 0px 0px 12px 0px;
+    width: fit-content;
+}
+
+body .avatar p{
+    margin: auto;
+    font-size: 14px;
+    font-weight: 800;
+    padding-left: 14px;
+
+}
+
+body .image-avatar{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 764px) {
+
+    body{
+        margin: 10vh auto;
+    }
+    
+
+}
